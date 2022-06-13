@@ -1,0 +1,56 @@
+body{
+    color:#987467;
+    background:#e0d5d1;
+}
+.NameLogo{
+    display:flex;
+    position:relative;
+    left:7%;
+}
+#name{
+    position:relative;
+    left:3%;
+}
+.navBar{
+    list-style-type:none;
+}
+.navBarItems{
+    text-decoration:none;
+    margin:15px;
+    position:relative;
+    top:10px;
+    color:#e0d5d1;
+}
+.headerDiv{
+    display:flex;  
+    color:#e0d5d1;
+    background: #987467; 
+}
+
+a{
+    color:#987467;
+    font-weight:bold;
+}
+a:hover::after{
+    content: "";
+    display: block;
+    width: 5px;
+    border-bottom: 1px solid;
+    margin: 0 auto;
+}
+.sectwo {
+    display:flex;
+}
+.HomeImages{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    top:60%;
+    right:1%;
+}
+footer{
+    color:#e0d5d1;
+    background: #987467;
+}
+
+

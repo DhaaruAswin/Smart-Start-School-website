@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+            #gal{
+                border-bottom: 3px solid;
+            }
+            body{
+                text-align:center;
+            }
+            .gi{
+                border:2px solid ;
+                transition-property:all;
+                transition-duration:0.5s;
+            }
+            .gi:hover{
+                border:10px solid;
+            }
+            nav{
+                position:relative;
+                left:25%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="headerDiv">
+                <div class="NameLogo">
+                    <img src="images/logo.png" width=80 height=80/>
+                    <h1 id="name">Smart Start School</h1>
+                </div>
+                <nav>
+                    <ul class="navBar">
+                        <li style="display:inline-block"><a class="navBarItems" href="index.html">Home</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="news.html">News</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="lesson.html">Lesson</a></li>
+                        <li style="display:inline-block"><a id="gal" class="navBarItems" href="gallery.html">Gallery</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="video.html">Videos</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="form.html">Enquiry Form</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section >
+                <h2>Classical ballet school based in Chennai</h2>
+                <p>Have a look at our gallery by hovering over our images</p>
+                <table style="border-spacing:19px">
+                    <tr>
+                        <td><img class="gi" src="images/g1.jpg" width=280 height=280/></td>
+                        <td><img class="gi" src="images/g2.jpg" width=280 height=280/></td>
+                        <td><img class="gi" src="images/g3.jpg" width=280 height=280/></td>
+                        <td><img class="gi" src="images/g4.jpg" width=280 height=280/></td>
+                    </tr>
+                    <tr>
+                        <td><img class="gi" src="https://thumbs.gfycat.com/LavishSimpleArmyworm-size_restricted.gif" width=280 height=280/></td>
+                        <td><img class="gi" src="https://media4.giphy.com/media/3oadqdlSC8tsAzGjRM/200.gif" width=280 height=280/></td>
+                        <td><img class="gi" src="https://i.pinimg.com/originals/ac/36/4b/ac364b9428b862a25805aa74953cd3b2.gif" width=280 height=280/></td>
+                        <td><img class="gi" src="https://c.tenor.com/IHs5PpEJaeIAAAAC/ballet.gif" width=280 height=280/></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h1>Contact Us</h1>
+            <div style="display:flex;flex-direction:column">
+                <span><strong>Phone no : </strong>097890 73708</span>
+                <span><strong>Email id :</strong>contact@smartstart.com</span>
+                <span><strong>Address :</strong>
+            52, Eldams Rd, Vannia Teynampet, Venus Colony, Teynampet, Chennai, Tamil Nadu 600018</span>
+            </div>
+           </footer>
+    </body>
+</html>

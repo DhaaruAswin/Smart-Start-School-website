@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+            #fo{
+                border-bottom: 3px solid;
+            }
+            body{
+                text-align:center;
+            }
+            nav{
+                position:relative;
+                left:25%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="headerDiv">
+                <div class="NameLogo">
+                    <img src="images/logo.png" width=80 height=80/>
+                    <h1 id="name">Smart Start School</h1>
+                </div>
+                <nav>
+                    <ul class="navBar">
+                        <li style="display:inline-block"><a class="navBarItems" href="index.html">Home</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="news.html">News</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="lesson.html">Lesson</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="gallery.html">Gallery</a></li>
+                        <li style="display:inline-block"><a class="navBarItems" href="video.html">Videos</a></li>
+                        <li style="display:inline-block"><a id="fo" class="navBarItems" href="form.html">Enquiry Form</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h1>Student Enquiry Form</h1>
+                <div style="border:3px solid white;width:350px;margin-left:36%;"><br/>
+                    <form action="" >
+                        <label for="name">First Name :</label>
+                        <input id="name" type="text" placeholder="First Name"/><br/><br/>
+                        <label for="name">Last Name :</label>
+                        <input id="name" type="text" placeholder="Last Name"/><br/><br/>
+                        <label for="date">Date of Birth :</label>
+                        <input id="date" type="date"/><br/><br/>
+                        <label for="num">Contact number :</label>
+                        <input id="num" type="number"  placeholder="10 digit mobile number"/><br/><br/>
+                        <label for="add">Address :</label>
+                        <textarea id="add" rows=3 placeholder="Enter full address here..!!"></textarea><br/><br/>
+                        <label >Gender :</label>
+                        <input id="male" name="gender" type="radio"/><label for="male">Male</label>
+                        <input id="female" name="gender" type="radio"/><label for="female">Female</label>
+                        <input id="others" name="gender" type="radio"/><label for="others">Others</label><br/><br/>
+                        <label>Lesson Type  :</label>
+                        <input id="wd" type="checkbox"/><label for="wd">Weekday</label>
+                        <input id="we" type="checkbox"/><label for="we">Weekend</label><br/><br/>
+    
+                        <button><a style="text-decoration:none" href="afterSubmit.html">Submit</a></button><br/><br/>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h1>Contact Us</h1>
+            <div style="display:flex;flex-direction:column">
+                <span><strong>Phone no : </strong>097890 73708</span>
+                <span><strong>Email id :</strong>contact@smartstart.com</span>
+                <span><strong>Address :</strong>
+            52, Eldams Rd, Vannia Teynampet, Venus Colony, Teynampet, Chennai, Tamil Nadu 600018</span>
+            </div>
+           </footer>
+    </body>
+</html>
